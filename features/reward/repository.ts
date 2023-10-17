@@ -14,6 +14,6 @@ export class RewardRepository {
   }
 
   public create(user: string, reward: Reward) {
-    this.logger('Reward Repositroy', `${reward} reward for user ${user} created`);
+    this.logger('Reward Repository', `${reward} reward for user ${user} created`);
   }
 }

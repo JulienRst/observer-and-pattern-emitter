@@ -9,7 +9,7 @@ const logger = (...args: string[]) => console.log(...args);
 
 // First we launch our reward-observer so he can do his job
 // Preshot : yes it would be much more readble with Nest,
-// But one things at a time
+// But one thing at a time
 new RewardObserver({
   rewardService: new RewardService({
     rewardRepository: new RewardRepository({

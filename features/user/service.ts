@@ -25,7 +25,7 @@ export class UserService {
   public create(name: string) {
     this.logger('UserService', `Creating User with name ${name}`);
     const user = this.userRepository.create(name);
-    this.logger('UserService', `Emiting ${AppEvent.UserCreated} with payload : ${user}`);
+    this.logger('UserService', `Emiting ${AppEvent.UserCreated} with payload: ${user}`);
     this.appEmitter.emit(AppEvent.UserCreated, user);
   }
 }
