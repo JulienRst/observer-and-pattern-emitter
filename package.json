@@ -1,0 +1,16 @@
+{
+  "name": "bbl",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "author": "JulienRst",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "tsc && node -r ./tsconfig-paths-bootstrap.js dist/index.js"
+  },
+  "dependencies": {
+    "strict-event-emitter": "^0.5.1",
+    "tsconfig-paths": "^4.2.0",
+    "typescript": "^5.2.2"
+  }
+}

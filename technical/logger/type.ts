@@ -1,0 +1,1 @@
+export type Logger = (...items: Array<string>) => void; 
